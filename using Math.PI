@@ -1,1 +1,18 @@
-
+import java.util.*;
+public class Main
+{ 
+	public static void main(String[] args) {
+	    double r,a,p;
+		Scanner sc = new Scanner(System.in);
+		r=sc.nextInt();
+		if(r<0)
+		System.out.println("enter greater than 0");
+		else
+	 {	a= Math.PI * r *r;
+		p=2* Math.PI * r;
+		
+	System.out.println(p);
+	System.out.println(a);
+	}
+}
+}
