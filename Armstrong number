@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main
+{ 
+	public static void main(String[] args) {
+	    //if you keep double here you will get error so use int
+	 int n,i,rem,sum=0;
+		Scanner sc = new Scanner(System.in);
+		i=sc.nextInt();
+		n=i;
+		while(n>0)
+		{
+		    rem=n%10;
+		    n=n/10;
+		    sum=rem*rem*rem+sum;
+		}
+		if(i==sum)
+		System.out.println("the number is armstrong");
+		else
+		System.out.println("not armstrong:");
+
+
+	}
+	}
